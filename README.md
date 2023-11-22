@@ -38,44 +38,50 @@ The script performs the following data analysis tasks:
 
 ### 1. How does the Day of a Week affect the number of earthquakes?
 ==> Saturday and Wednesday are the days where the earthquake count was highest. 
-![plot1](https://github.com/ashty3899/test/assets/67702605/0f6188fe-c218-4664-94c1-4803284019e0)
+![earthquakes by day of the week](https://github.com/ashty3899/earthquake_analysis/assets/67702605/7b0cc9a4-f2ed-467c-94cc-57e35370c025)
 
 ### 2. What is the relation between Day of the month and Number of earthquakes that happened in a year?
 ==> The top 3 days where the number of earthquakes where highest are 11th, 17th, and 23rd having 900, 840, and 831 earthquakes respectively.
 
-![Top N days of the month by earthquake count.](https://github.com/ashty3899/test/assets/67702605/e242ae5e-36ed-4eec-a8d3-c323222de495)
-![Plot days of the month with the count of earthquakes each day.](https://github.com/ashty3899/test/assets/67702605/5fe4eabd-845f-4bf2-b96b-a80f3f2a6a47)
+![Top N days of the month by earthquake count.](https://github.com/ashty3899/earthquake_analysis/assets/67702605/26c8927b-e159-4aa0-b02d-1c5f42ed09b0)
+![Plot days of the month with the count of earthquakes each day.](https://github.com/ashty3899/earthquake_analysis/assets/67702605/ac5eb5a7-9f6c-4b6b-8b28-42e35b6f734d)
+
 
 ### 3. What does the average frequency of earthquakes in a month from the year 1965 to 2016 tell us?
 ==> It tells us that March and August have 40.46 and 38.46 as the highest avg of earthquakes by month over the years and June and February have 34.75 and 35.01 as the lowest avg of earthquakes by month over the years.
-![Avg Earthquake by month over the years](https://github.com/ashty3899/test/assets/67702605/3a230e4d-4e65-4392-98d1-019c416e0973)
+![Avg Earthquake by month over the years](https://github.com/ashty3899/earthquake_analysis/assets/67702605/ee11e0f6-5c89-4690-86eb-d3c7ac4acba1)
 
 ### 4. What is the relation between the Year and Number of earthquakes that happened in that year?
 ==> From the below chart we can say that the number of earthquakes has increased over the years.
-![Year-wise earthquake count](https://github.com/ashty3899/test/assets/67702605/d1c234fb-e408-4af6-a6a0-e5e9abbf4dc2)
+![Year-wise earthquake count](https://github.com/ashty3899/earthquake_analysis/assets/67702605/6d82826d-f049-4929-a8eb-17c9bd4e241e)
 
 ### 5. How has the earthquake magnitude on average been varied over the years?
 ==> The earthquake magnitude on average has varied over the years by `0.0293%`.
 Below is the chart showing the percentage change of the magnitude compared to the previous year.
-![magnitude change over the years](https://github.com/ashty3899/test/assets/67702605/0b455275-4b75-4e56-8906-2669fc462407)
+![magnitude change over the years](https://github.com/ashty3899/earthquake_analysis/assets/67702605/8e937023-78ed-4bf1-bccb-69309915de2d)
+
 
 ### 6. How does year impact the standard deviation of the earthquakes?
 ==> It doesn't have much impact on the standard deviation of the earthquakes. It's been in the range of `0.40 to 0.45` . 
-![standard deviation over years](https://github.com/ashty3899/test/assets/67702605/b475c071-53a6-4014-ba32-afaf4759f586)
+![standard deviation over years](https://github.com/ashty3899/earthquake_analysis/assets/67702605/27246318-17e0-4e19-9ecc-b0523fae2fca)
+
 
 ### 7. Does geographic location have anything to do with earthquakes?
 ==> Yes, It surely does. I have plotted the latitude and longitude scatter plot. It shows that near the longitude of `130 to 160` and `-60 to -70` there are lots of dots which means the earthquakes were more frequent than in other places.
-![Scatter plot by longitude and latitude](https://github.com/ashty3899/test/assets/67702605/6b670f6f-b779-46ca-b381-e204ef9da9f7)
+![Scatter plot by longitude and latitude](https://github.com/ashty3899/earthquake_analysis/assets/67702605/ff1b6aab-aa5d-4cce-847a-3ee96f8b74e6)
+
 
 ### 8. Where do earthquakes occur very frequently?
 ==> We don't have any column where we can the geo location names. However, I did try to use the longitude and latitude and plotted on the world map using the Databricks Visualization feature. By looking in the map we can say that major earthquakes happened in the area of Japan, Middle Eastern Countries, the Indonesian Islands, and Central America with Columbia.
-![image](https://github.com/ashty3899/test/assets/67702605/38aeec7b-2608-4090-b1b0-3f44a1887e67)
+![earthquakes on map](https://github.com/ashty3899/earthquake_analysis/assets/67702605/74092c15-d72f-4ad6-8446-b74d6a1ff007)
+
+
 
 ### 9. What is the relation between Magnitude, Magnitude Type, Status, and Root Mean Square of the earthquakes?
 ==> The average magnitude of different types of magnitudes is similar in the range of 5.8 ± 0.2. Only MH has a 6.5 magnitude.
-![Avg magnitude by magnitude types.](https://github.com/ashty3899/test/assets/67702605/c4348d93-aae7-4655-afee-71d5c110819a)
+![Avg magnitude by magnitude types.](https://github.com/ashty3899/earthquake_analysis/assets/67702605/07cfacb2-6ecf-42a4-922b-a1f5b4c0496d)
 The table below shows that where the status is Automatic the  Root Mean Square is `null`.
-![Avg root mean square by status.](https://github.com/ashty3899/test/assets/67702605/957415af-3d28-4c12-bd71-0a8c14bc4d27)
+![Avg root mean square by status.](https://github.com/ashty3899/earthquake_analysis/assets/67702605/ad108fee-9208-47a1-aa6e-0fe8b185baa4)
 
 
 
