@@ -6,7 +6,6 @@ from sqlalchemy import create_engine
 import dotenv
 dotenv.load_dotenv()
 
-
 # Load the dataset into a pandas DataFrame
 dataset_path = "earthquake_data.csv"
 df = pd.read_csv(dataset_path)
